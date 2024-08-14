@@ -1,8 +1,3 @@
-#(©)Codeflix_Bots
-
-
-
-
 import os
 import asyncio
 from pyrogram import Client, filters, __version__
@@ -88,8 +83,12 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('🍁 sᴇʀɪᴇsғʟɪx', url='https://t.me/Team_Netflix/40')
+                    InlineKeyboardButton("✨ Main ✨", url="https://t.me/+o_R6EPJYgCFlMThl"),
+                    InlineKeyboardButton('✨ Western ✨', url='https://t.me/+ZtZsz43S9LJiMTY1')
+                ],
+                [
+                    InlineKeyboardButton("✨ Cosplays ✨", url="https://t.me/Den_of_Sins/34"),
+                    InlineKeyboardButton('🌐 Network', url='https://t.me/Den_of_Sins/19')
                 ]
             ]
         )
